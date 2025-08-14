@@ -107,7 +107,7 @@ BENDER is a text based CTF front which masquerades as a text based adventure gam
     * LVCC South Entrance
     * DC33 Contest Area (Player needs to find 5n4ck3y here)
     * DC33 Talk Tracks
-    * DC33 Merch Line ~ LineCon (a series of 20 one-way rooms)
+    * DC33 Merch Line  LineCon (a series of 20 one-way rooms)
     * The End of the Line (merch booth)
 
 ### Challenges
@@ -118,7 +118,7 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Phase 1: Uncovering the Path (In-Game BENDER - Puzzle, Observation)**
         *   **Location:** "Radio" object (in "Riviera Pool On The Roof"). "UV Flashlight" (in "Ramen Noodle House").
         *   **Description:**
-            1.  Player finds a "Radio" object at the "Riviera Pool On The Roof". Its description mentions "~Laura~" and a nearly invisible message from lemons on the bar.
+            1.  Player finds a "Radio" object at the "Riviera Pool On The Roof". Its description mentions "Laura" and a nearly invisible message from lemons on the bar.
             2.  Player finds and takes the "UV Flashlight" from the "Ramen Noodle House".
             3.  Player uses the "UV Flashlight" on the "Radio" object.
         *   **Key Objects Required:** "UV Flashlight".
@@ -541,7 +541,7 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
                 *   Shift the encoded character's ASCII value *forward* by this alphabetical position.
                 *   If the new ASCII value goes above 126, subtract 95 to wrap around into the printable range (ASCII 32-126).
                 *   Actual text string from QR Code Printout: 
-                        "Take a seat at the ASCII table and you're sure to hit a ~JACKPOT~"
+                        "Take a seat at the ASCII table and you're sure to hit a JACKPOT"
             4.  Successful decryption of the substring will yield the original plaintext: `flag{Ch1pQu1ks_Quick_Chips}`.
         *   **Key Objects Required:** The decryption method (Keyword `JACKPOT` and rules) obtained in Phase 1. The 5 message slices from the chip objects.
         *   **Output/Hint:** The flag.
@@ -600,9 +600,9 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
         *   **Location:** Dead End Dumpsters Trash (Locust Decoder) and LVCC Loop North Entrance (Locust Shrine).
         *   **Description:**
             1.  Player explores the Dead End Dumpsters Trash area and finds the **Locust Decoder** object hidden in the trash. Its description hints at its connection to locusts and DEF CON 28.
-                *   *Locust Decoder Description:* "Amidst the discarded vape pens and shattered AR glasses, you uncover a small, battered device shaped like a locust. Its antennae are bent, and faint etchings on its surface read ~DEF CON 28~. The device hums faintly, as if waiting to be activated."
+                *   *Locust Decoder Description:* "Amidst the discarded vape pens and shattered AR glasses, you uncover a small, battered device shaped like a locust. Its antennae are bent, and faint etchings on its surface read DEF CON 28. The device hums faintly, as if waiting to be activated."
             2.  Player takes the **Locust Decoder** and brings it to the **Locust Shrine** located at the LVCC Loop North Entrance.
-                *   *Locust Shrine Description:* "A strange altar covered in locust motifs. The antennae of the locust carvings seem to point toward something unseen. A faint inscription reads: ~The whispers of the locust reveal the path.~"
+                *   *Locust Shrine Description:* "A strange altar covered in locust motifs. The antennae of the locust carvings seem to point toward something unseen. A faint inscription reads: The whispers of the locust reveal the path."
             3.  Player uses the **Locust Decoder** on the **Locust Shrine** (e.g., `USE LOCUST DECODER ON SHRINE`).
             4.  Upon successful interaction, the shrine activates and provides the clue about the badge's UART interface and communication rate:
                 *   *Clue:* "The locust's whispers guide you. Their antennae transmit and receive locust talk. Connect to them to understand their invasion plans and listen carefully-their rate of talk is slow yet leet."
@@ -628,15 +628,15 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
         *   **Location:** EV Charging Station (Energizer Bunny Object) and Vape Shop (Drum Mallet Object).
         *   **Description:**
             1.  Player explores the EV Charging Station and finds the **Energizer Bunny Object**. Its description hints at its connection to power and locusts, and it mentions that the bunny is missing its drum mallet.
-                *   *Energizer Bunny Object Description:* "A corroded battery pack shaped like a bunny, its surface strangely crawling with small, metallic-looking locusts. Its drum mallet is missing, and the faint smell of ozone lingers around it. The words ~Power flows where the bunny beats~ are etched into its surface. The bunny looks like it hasn’t drummed in years, but maybe it’s waiting for something..."
+                *   *Energizer Bunny Object Description:* "A corroded battery pack shaped like a bunny, its surface strangely crawling with small, metallic-looking locusts. Its drum mallet is missing, and the faint smell of ozone lingers around it. The words Power flows where the bunny beats are etched into its surface. The bunny looks like it hasn’t drummed in years, but maybe it’s waiting for something..."
             2.  Player explores the Vape Shop and finds the **Drum Mallet Object**. Its description hints at its connection to the bunny.
-                *   *Drum Mallet Object Description:* "A sturdy percussion mallet with locust carvings etched into its handle. The carvings pulse faintly, as if waiting for something. A faint inscription reads: ~The bunny beats for those who already speak the locusts' language.~"
+                *   *Drum Mallet Object Description:* "A sturdy percussion mallet with locust carvings etched into its handle. The carvings pulse faintly, as if waiting for something. A faint inscription reads: The bunny beats for those who already speak the locusts' language."
             3.  Player must take the **Drum Mallet Object** and bring it to the **Energizer Bunny Object** in the EV Charging Station.
             4.  Player uses the **Drum Mallet Object** on the **Energizer Bunny Object** (e.g., `USE MALLET ON BUNNY`).
             5.  Upon successful interaction, the game displays the following message, which includes the hint:
-                *   *Interaction Output:* "As you use the Drum Mallet on the Energizer Bunny, it transforms into a hacker-modded marvel, strangely covered in a swarm of twitching, metallic locusts! Its eyes glow with menacing red LEDs, and it's belting out a surprisingly clear, synthesized rendition of 'Never Gonna Give You Up, Never Gonna Let You Down' while drumming erratically. This is... unexpected. Amidst the robotic crooning and the chittering of locusts, it continues to whisper intermittently: ~I am the holder of 1000 mAh, yet I must be removed to cut all traces of my existence. Under the battery holder lies the path to silence. Sever the trace to uncover the truth.~"
+                *   *Interaction Output:* "As you use the Drum Mallet on the Energizer Bunny, it transforms into a hacker-modded marvel, strangely covered in a swarm of twitching, metallic locusts! Its eyes glow with menacing red LEDs, and it's belting out a surprisingly clear, synthesized rendition of 'Never Gonna Give You Up, Never Gonna Let You Down' while drumming erratically. This is... unexpected. Amidst the robotic crooning and the chittering of locusts, it continues to whisper intermittently: I am the holder of 1000 mAh, yet I must be removed to cut all traces of my existence. Under the battery holder lies the path to silence. Sever the trace to uncover the truth."
         *   **Key Objects Required:** Drum Mallet Object (found in Vape Shop).
-        *   **Output/Hint:** The hint "~I am the holder of 1000 mAh, yet I must be removed to cut all traces of my existence. Under the battery holder lies the path to silence. Sever the trace to uncover the truth.~" (delivered as part of the interaction output).
+        *   **Output/Hint:** The hint "I am the holder of 1000 mAh, yet I must be removed to cut all traces of my existence. Under the battery holder lies the path to silence. Sever the trace to uncover the truth." (delivered as part of the interaction output).
     * **Phase 2: Trace Identification & Severing (Hardware Hacking, PCB Analysis)**
         *   **Location:** IRL - The Badge Hardware.
         *   **Description:**
@@ -659,25 +659,25 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
         *   **Description:**
             1.  Player explores `VegasStripSouthCentral`. The room description should now include: "In the distance, the iconic fountains of a Bellagio-esque resort perform their aquatic ballet, their shimmering pools reflecting the neon... Near the edge of one of the grand pools, a peculiar sight: a cybernetic frog sits dejectedly, covered in metallic locusts, a few feet away from a set of what look like stylized lily pads made of conductive material."
             2.  Player finds the **CyberneticLeapFrog Object**.
-                *   *CyberneticLeapFrog Object Description:* "A bizarre cybernetic frog, its chassis gleaming with chrome and blinking LEDs, sits motionless by the edge of the grand pool. It's strangely encrusted with small, metallic-looking locusts that twitch occasionally. Its optical sensors, usually a vibrant green, are dull and lifeless. It seems to be looking longingly at a pair of metallic lily pads nearby. A faint, almost inaudible inscription on its side reads: ~Powerless, I yearn for the pads' embrace, a current's leap to win this race.~"
+                *   *CyberneticLeapFrog Object Description:* "A bizarre cybernetic frog, its chassis gleaming with chrome and blinking LEDs, sits motionless by the edge of the grand pool. It's strangely encrusted with small, metallic-looking locusts that twitch occasionally. Its optical sensors, usually a vibrant green, are dull and lifeless. It seems to be looking longingly at a pair of metallic lily pads nearby. A faint, almost inaudible inscription on its side reads: Powerless, I yearn for the pads' embrace, a current's leap to win this race."
             3.  Player finds the **StylizedLilyPads Object**.
-                *   *StylizedLilyPads Object Description:* "Two large, flat metallic pads, shaped like stylized lily pads, are embedded in the ground near the pool's edge. They hum with a faint energy, and a noticeable gap separates them. They look like oversized electrical contacts. A tiny inscription etched between them reads: ~Bridge the gap, let the current flow, and secrets deep the frog will know.~"
+                *   *StylizedLilyPads Object Description:* "Two large, flat metallic pads, shaped like stylized lily pads, are embedded in the ground near the pool's edge. They hum with a faint energy, and a noticeable gap separates them. They look like oversized electrical contacts. A tiny inscription etched between them reads: Bridge the gap, let the current flow, and secrets deep the frog will know."
             4.  Player explores `Street West` and finds the **PrecisionJumperWire Object**.
                 *   *PrecisionJumperWire Object Description:* "A short, insulated wire with fine, gold-plated alligator clips at each end. It looks like a precision tool for making temporary electronic connections, perhaps salvaged from some high-end diagnostic equipment of a bygone era. Perfect for bridging a small gap in a circuit."
             5.  Player must take the **PrecisionJumperWire Object** and bring it to `VegasStripSouthCentral`.
             6.  Player uses the **PrecisionJumperWire Object** on the **StylizedLilyPads Object** (e.g., `USE JUMPER ON LILYPADS` or `USE JUMPER ON PADS`).
             7.  Upon successful interaction, the game displays the following message, which includes the hint:
                 *   *Interaction Output:* "You carefully clip the Precision Jumper Wire across the gap between the Stylized Lily Pads. Sparks fly for a moment! The nearby Cybernetic LeapFrog suddenly whirs to life, its optical sensors flaring to a bright, predatory green! It emits a series of digitized croaks, then a synthesized voice, surprisingly clear, speaks:
-                    ~Ribbit... Connection established! The locusts scatter from my energized field! You seek another path, another bridge to make? Listen closely, data-streamer:
+                    Ribbit... Connection established! The locusts scatter from my energized field! You seek another path, another bridge to make? Listen closely, data-streamer:
                     Where three small power sources once did reside,
                     Lift their cradle, look deep inside.
                     A broken path, two points forlorn,
                     Join them true, 'til a new signal's born.
                     The current flows, the circuit sings,
-                    Another secret the tasty locust breath brings.~
+                    Another secret the tasty locust breath brings.
                     The frog then returns to zapping the remaining locusts with renewed vigor."
         *   **Key Objects Required:** PrecisionJumperWire Object (found in Street West).
-        *   **Output/Hint:** The riddle: "~Where three small power sources once did reside, Lift their cradle, look deep inside. A broken path, two points forlorn, Join them true, 'til a new signal's born. The current flows, the circuit sings, Another secret the tasty locust breath brings.~"
+        *   **Output/Hint:** The riddle: "Where three small power sources once did reside, Lift their cradle, look deep inside. A broken path, two points forlorn, Join them true, 'til a new signal's born. The current flows, the circuit sings, Another secret the tasty locust breath brings."
     * **Phase 2: Trace Identification & Connection (Hardware Hacking, PCB Analysis, Soldering)**
         *   **Location:** IRL - The Badge Hardware.
         *   **Description:**
@@ -737,15 +737,15 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Phase 1: Discovering the Clues (In-Game Exploration and Observation)**
         *   **Location:** HackRcade (Display Case and Circuit Sid) and Dive Bar (Magnifying Glass).
         *   **Description:**
-            1.  In the HackRcade, the player finds a **Display Case** labeled ~Secrets of the Silkscreen~. Examining it provides a clue about silkscreen text:
-                *   "The plaque explains: ~Silkscreen text is often hidden under components, requiring careful disassembly to reveal. Some designers use it to encode messages, jokes, or even secrets.~"
+            1.  In the HackRcade, the player finds a **Display Case** labeled Secrets of the Silkscreen. Examining it provides a clue about silkscreen text:
+                *   "The plaque explains: Silkscreen text is often hidden under components, requiring careful disassembly to reveal. Some designers use it to encode messages, jokes, or even secrets."
             2.  The player encounters **Circuit Sid**, an NPC in the HackRcade. Sid provides a vague hint:
                 *   "Hey there, hacker! Did you know some badges hide secrets in their silkscreen? The AND!XOR badge is no exception. You might need to look closely at yours-sometimes the best secrets are hidden where you least expect them. Got a magnifying glass?"
             3.  The player explores the Dive Bar and finds a **Magnifying Glass**:
                 *   *Description:* "A magnifying glass with a cracked lens, perfect for inspecting tiny details on circuit boards."
                 *   Taking the magnifying glass adds it to the player's inventory.
             4.  With the magnifying glass in their inventory, the player can `LOOK AT BADGE` in their inventory to receive additional hints:
-                *   Without the magnifying glass: "The badge is sleek and brimming with LEDs and intricate circuitry. It hums faintly with power, its surface etched with cryptic patterns and hacker-themed designs. A small OLED screen displays scrolling text: ~AND!XOR~."
+                *   Without the magnifying glass: "The badge is sleek and brimming with LEDs and intricate circuitry. It hums faintly with power, its surface etched with cryptic patterns and hacker-themed designs. A small OLED screen displays scrolling text: AND!XOR."
                 *   With the magnifying glass: "The badge is sleek and brimming with LEDs and intricate circuitry. As you inspect it closely with the magnifying glass, you notice something faintly visible behind the screen ribbon. It looks like text, but you’ll need to move the ribbon to see it clearly."
     * **Phase 2: Physical Interaction with the Badge (IRL Hardware Hacking)**
         *   **Location:** IRL - The Badge Hardware.
@@ -845,13 +845,13 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
                 *   *Overheated PC Description:* "A dusty desktop PC sits on the sidewalk, its case hot to the touch under the relentless Vegas sun. The monitor displays nothing but a faint flicker, and the CPU fan is missing entirely."
             2.  Player explores the `StreetEast` and examines a "Discarded Electronics Pile" near a dumpster. Searching it reveals "Thermal Paste".
                 *   *Discarded Electronics Pile Description:* "A heap of broken electronics lies abandoned near a dumpster. Among the shattered screens and tangled wires, a small tube of thermal paste catches your eye."
-                *   *Thermal Paste Description:* "A small tube of thermal paste, slightly dented but still usable. The label reads: ~Cooler Master - Stay Frosty!~"
+                *   *Thermal Paste Description:* "A small tube of thermal paste, slightly dented but still usable. The label reads: Cooler Master - Stay Frosty!"
             3.  Player explores the `VegasStripSouth` and examines an "Abandoned Tech Booth" near a closed convention center. Searching it reveals a "CPU Cooler".
                 *   *Abandoned Tech Booth Description:* "A dilapidated booth with faded banners advertising high-performance PC components. Among the scattered debris, a CPU cooler lies forgotten."
-                *   *CPU Cooler Description:* "A compact CPU cooler with slightly bent fins. A sticker on the side reads: ~Arctic Chill - Keep Your Cool!~"
+                *   *CPU Cooler Description:* "A compact CPU cooler with slightly bent fins. A sticker on the side reads: Arctic Chill - Keep Your Cool!"
             4.  Player must take both the "Thermal Paste" and the "CPU Cooler" and return to the "Overheated PC" in the `VegasStripNorth`.
             5.  Player uses the "Thermal Paste" and "CPU Cooler" on the "Overheated PC" (e.g., `USE THERMAL PASTE ON PC` followed by `USE CPU COOLER ON PC`).
-                *   *Interaction Output:* "You carefully apply the thermal paste to the CPU and install the cooler. The PC hums to life, and the monitor flickers on. As the screen stabilizes, you notice a small, metallic locust crawling across the monitor's edge, its antenna twitching as if transmitting something. A message appears: ~Thermistors are like resistors with no markings. Cold reveals their secrets.~"
+                *   *Interaction Output:* "You carefully apply the thermal paste to the CPU and install the cooler. The PC hums to life, and the monitor flickers on. As the screen stabilizes, you notice a small, metallic locust crawling across the monitor's edge, its antenna twitching as if transmitting something. A message appears: Thermistors are like resistors with no markings. Cold reveals their secrets."
             6.  After completing this interaction, the player receives the hint about the thermistor and the need to chill it to reveal the flag.
         *   **Key Objects Required:** Thermal Paste (from StreetEast), CPU Cooler (from VegasStripSouth).
         *   **Output/Hint:** The clue about the thermistor: "Thermistors are like resistors with no markings. Cold reveals their secrets." The locust crawling on the monitor hints that Phase 2 - 01 (Hidden UART) must be completed to access the flag.
