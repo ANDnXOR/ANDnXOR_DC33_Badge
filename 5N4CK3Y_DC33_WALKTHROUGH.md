@@ -139,7 +139,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{m35h7ash@kt@kt03}`
     * **CTF Points (Hard):** 88
     * **CTFd_Challenge_Name:** `H4k_T4k_T03`
-    * **Status:** Complete
 
 * Phase 1 - 2 LoRA Meshtastic BBS - Hot Cold Location Foxhunt (Wireless, OSINT, & GPS Spoofing)
     * **Overall:** Player engages in a GPS-based scavenger hunt via 5n4ck3y's LoRA Meshtastic BBS, requiring OSINT to identify a target location from a photo and then "reach" it (potentially via GPS spoofing) within a time limit.
@@ -169,7 +168,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{hawtd0gch1ll1d0g}`
     * **CTF Points (Hard):** 97
     * **CTFd_Challenge_Name:** `H4w7_&_Ch1ll`
-    * **Status:** Complete
 
 * Phase 1 - 03 POCSAG/FLEX (Wireless, RF Sniffing, POCSAG/FLEX Demodulation and Decoding, Audio Reversal)
     * **Overall:** Player finds a pager and battery in-game. The pager displays a partial message and has an FCC ID hinting at a frequency. Player sniffs RF signals at that frequency to capture the full pager message, which includes a phone number. Player calls this real-world phone number, hears a reversed voicemail, reverses the audio to get a 5n4ck3y code, and enters this code on the physical 5n4ck3y to get the flag.
@@ -214,7 +212,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{R3v3r53Ph0n3H0m3}`
     * **CTF Points (Hard):** 89
     * **CTFd_Challenge_Name:** `Fl3x_Y0ur_P0574l_C0d3_Mu5cl3`
-    * **Status:** Complete
 
 * Phase 1 - 04 Shakespere (Shakespeare Programming Language)
     * **Overall:** Player encounters an NPC, Lintile, who desires Malort. Upon receiving it, Lintile takes a swig, returns the bottle, and then recites a script written in the esoteric Shakespeare Programming Language. Player must execute this script to get one flag, then analyze and modify it to reveal a second flag.
@@ -258,7 +255,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
         *   **CTF Points (Medium):** 58
     * **CTFd_Challenge_Name_1:** `V31l3d_S0l1l0quy`
     * **CTFd_Challenge_Name_2:** `V31l3d_S0l1l0quy_D1r3c70r5_Cu7` 
-    * **Status:** Complete
 
 * Phase 1 - 05 5n4ck3y BENDER Hidden Room (Reversing Z Machine Code)
     * **Overall:** A flag is hidden within a normally inaccessible room in the Z-machine game file, rewarding players who reverse-engineer the game code.
@@ -291,7 +287,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{qu@ran7in35uX}`
     * **CTF Points (Hard):** 83
     * **CTFd_Challenge_Name:** `Qu4r4n71n3`
-    * **Status:** Complete
 
 * Phase 1 - 06 Ramen House Menu (Observation, File Repair, Steganography, Physical Puzzle/Overlay)
     * **Overall:** Player finds a chalkboard menu in Japanese, finds a translation book, deciphers a code, uses it on the physical 5n4ck3y to get a corrupted PNG. After repairing it, steganography reveals a cutout. Overlaying the cutout on the repaired menu image and reading in a specific order reveals the flag.
@@ -321,7 +316,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{HackerMisoSeaweedSake}`
     * **CTF Points (Medium):** 71
     * **CTFd_Challenge_Name:** `H4x0r_D3lux3`
-    * **Status:** Complete
 
  * Phase 1 - 07 NPC-crets (Distributed Puzzle, NPC Interaction)
     * **Overall:** Player engages in a fetch-quest chain across four NPCs, obtaining items for each in sequence. The fifth NPC (Oracle, the bartender) provides the initial item that allows the player to start fulfilling the requests back up the chain. Each of the first four NPCs, upon receiving their desired item, gives the player an encoded word. The player must decode these four words and assemble them into a passphrase, which is then told to Oracle to receive a 5n4ck3y NFT PIN Code.
@@ -383,7 +377,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{0N3_5M411_F4V0R_PLZ}` (This will be obtained after using the decoded NFT PIN code with 5n4ck3y)
     * **CTF Points (Hard):** 78
     * **CTFd_Challenge_Name:** `NPC_cr37z`
-    * **Status:** Complete
 
 * Phase 1 - 08 Dune Pinball (Game Interaction)
     * **Overall:** Player interacts with a Dune-themed pinball machine machine IRL (yes we are bringing pinball machines). The machine features references to the movie *Dune* and provides a ticket upon successful interaction, which can be redeemed for the flag.
@@ -401,7 +394,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **CTFd_Challenge_Name:** `Dun3_P1nb4ll_Ch4ll3ng3`
     * **Flag:** `flag{Th3_5p1c3_Mu57_Fl0w}`
     * **CTF Points (Hard):** 76
-    * **Status:** Complete
 
 * Phase 1 - 09 Labyrinth Pinball (Game Interaction)
     * **Overall:** Player interacts with a Labyrinth-themed pinball machine IRL (yes we are bringing pinball machines). The machine features references to the movie *Labyrinth* and provides the flag upon successful interaction.
@@ -418,7 +410,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **CTFd_Challenge_Name:** `L4byr1n7h_P1nb4ll_Ch4ll3ng3`
     * **Flag:** `flag{Y0uH4v3N0P0w3r0v3rM3}`
     * **CTF Points (Hard):** 74
-    * **Status:** Complete
 
 * Phase 1 - 10 Cr4abfoam Yaarcade Pinball
     * **Overall:** Player interacts with a Cr4b-themed pinball machine in Hack Arcade, it is offline and has a message saying look at DEFCON meshtastic, social media, and CTFd pop ups for details.
@@ -435,7 +426,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **CTFd_Challenge_Name:** `Y4RRc4D3_Du3L_P1nb4ll_Ch@mp!0n`
     * **Flag:** `flag{walked_the_plank_and_beat_the_foam}`
     * **CTF Points (Hard):** 99
-    * **Status:** Complete
 
 * Phase 1 - 11 5n4ck3y HAL's Eye (Morse & Polybius Cipher)
     * **Overall:** Player finds in-game clues on a PDA (5n4ck3y code and a hint about HAL). This points to a maintenance panel in the sewer (SewerMazeTM09). Upon opening the panel, they find a message written on its interior revealing the Polybius keyword and construction details. 5n4ck3y's HAL-like light blinks Morse code for number pairs (coordinates). These are used with the Polybius Square to decrypt a core message, which is then formatted into the flag.
@@ -482,7 +472,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{HALSEEZALLPEARZ}`
     * **CTF Points (Medium):** 61
     * **CTFd_Challenge_Name:** `H4l5_R3d_3y3d_Publ1c_D15pl4y_0f_Affl1c710n`
-    * **Status:** Complete
 
 * Phase 1 - 12 Red Box Rhapsody (Phone Phreaking, Audio Analysis, ASCII)
     * **Overall:** A multi-phase challenge involving an in-game phone phreaking puzzle to get a code for a physical vending machine. The machine plays a sequence of payphone coin tones which, when decoded and combined with an in-game hint, reveal ASCII characters forming the flag.
@@ -505,7 +494,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{AUx_#_snAx}`
     * **CTF Points (Medium):** 57
     * **CTFd_Challenge_Name:** `R3d_B0x_Rh4p50dy`
-    * **Status:** Complete
   
 * Phase 1 - 13 Collector
     * **Overall:** Player collects 5 casino chip objects scattered throughout the game. Each chip contains a slice of an encoded message. Once all chips are collected, they can be exchanged with an NPC at the Riviera Casino floor for a decoder key/method. This is then used to decrypt the combined message slices to reveal the flag.
@@ -549,7 +537,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{Ch1pQu1ks_Quick_Chips}`
     * **CTF Points (Medium):** 66
     * **CTFd_Challenge_Name:** `C0ll3c73r5_r_ju57_H04rd3r5_w17h_a_h0bby`
-    * **Status:** Complete
 
  * Phase 1 - 14 Remote Revelation (IR Puzzle)
     * **Overall:** Player finds clues in-game to determine a 5n4ck3y keypad code and a specific TV remote IR code. Entering the keypad code primes 5n4ck3y to listen for an IR signal. Sending the correct TV IR code results in 5n4ck3y dispensing the flag.
@@ -592,7 +579,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{m46n37b0xp4n4ph0n1c50rny}`
     * **CTF Points (Medium):** 51
     * **CTFd_Challenge_Name:** `R3m073_R3v3l4710n`
-    * **Status:** Complete
 
  * Phase 2 - 01 Badge Hardware Hacking Hidden UART
     * **Overall:** Player discovers and interacts with a hidden UART on the badge hardware to obtain a flag and potentially hints for other hardware challenges. The in-game BENDER puzzle involves finding and using objects to unlock the clue about the badge's UART interface and communication rate.
@@ -620,7 +606,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{UART_Rly_L1sten1ng}`
     * **CTF Points (Hard):** 88
     * **CTFd_Challenge_Name:** `L0cu57_Shr1n3`
-    * **Status:** Complete
 
  * Phase 2 - 02 Badge Hardware Hacking - Cut a Hidden Trace
     * **Overall:** Player must identify and physically CUT a specific hidden trace on the badge PCB, under one of the battery mounts, to enable a flag displayed on the hidden UART. The in-game BENDER puzzle involves finding and using objects to uncover the hint about the trace.
@@ -650,7 +635,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{TR4CE_T3RMIN4T3D}`
     * **CTF Points (Medium):** 72
     * **CTFd_Challenge_Name:** `K33p5_G01ng_&_G01ng`
-    * **Status:** Complete
 
  * Phase 2 - 03 Badge Hardware Hacking - Connect a Hidden Trace
     * **Overall:** Player must identify and physically CONNECT specific hidden pads/trace on the badge PCB, likely found under an AAA "energy cell" holder, to enable a flag. The in-game BENDER puzzle involves finding and using an object to uncover the hint.
@@ -692,7 +676,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **CTF Points (Medium):** 70
     * **CTFd_Challenge_Name:** `Cyphr0g_Jump3r`
     * **Errata**: `We learned there was somewhat of a bug in our implementation due to using a non standard Baud Rate of 31337. Some UART adapters and OS, not all, would cut the flag off after 20 charachters. When this happened contestants showed us the partially printed flag and we were able to verify it was correct.`
-    * **Status:** Complete
 
  * Phase 2 - 04 Badge Hardware Hacking Flash Chip -> Ch1pQu1ks Chip Clips
     * **Overall:** Player experiences an event on the High Roller, leading them to find items in the Dive Bar and Analog Antiques Store. These items are used to extract a clue from an emergency panel, guiding them to dump the badge's flash memory and find a flag.
@@ -730,7 +713,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{FL45H_FR13D_F1L35}`
     * **CTF Points (Hard):** 85
     * **CTFd_Challenge_Name:** `H1ghR0ll3rC0n`
-    * **Status:** Complete
 
   * Phase 2 - 05 Badge Hardware Hacking - Hidden Silkscreen
     * **Overall:** A flag is encoded in the Wingdings font, hidden on the PCB silkscreen, under the screen ribbon cable. The in-game portion provides hints to guide the player toward discovering and decoding the silkscreen text.
@@ -761,7 +743,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{by73my5h1nim374l455}`
     * **CTF Points (Medium):** 72
     * **CTFd_Challenge_Name:** `S1lkySm00thD1ng4l1ng`
-    * **Status:** Complete
 
   * Phase 2 - 06 Badge Hardware Hacking - LED Poop Shoot (Reverse Engineering Hidden Protocols tunneling as NeoPixel WS2812 LED messages)
     * **Overall:** A hidden pin above the poster on the badge is the output from the last LED in the chain. The badge is automatically sending extra LEDs worth of data to this pin (WS2812), where the data itself is a flag in ASCII. The player must detect and analyze this data stream.
@@ -801,7 +782,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{r9b_y0u_f0und_me!}` (padded to align with 24-bit colors...yes we can tunnel hidden messages over LEDs)
     * **CTF Points (Hard):** 85
     * **CTFd_Challenge_Name:** `L3D_P00p_5h007`
-    * **Status:** Complete
 
  * Phase 2 - 07 Thermistor Heat (In-Game Interaction)
     * **Overall:** Players must find a hamster object in one of the available areas and place it in a microwave located in the Ramen Noodle House. This action will provide hints about a thermistor and activate a hidden locust UART.
@@ -831,7 +811,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{h0t_en0ugh_2_s0lder}`
     * **CTF Points (Medium):** 65
     * **CTFd_Challenge_Name:** `M4n14c_N00dl3_M4n510n`
-    * **Status:** Complete
 
 * Phase 2 - 08 Badge Hardware Hacking - Thermistor (Temperature Sensor) COLD
     * **Overall:** Player needs to manipulate a temperature sensor on the badge by chilling it to trigger an event or reveal a flag.
@@ -866,7 +845,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{c0ld_j01nt3d}`
     * **CTF Points (Medium):** 69
     * **CTFd_Challenge_Name:** `Ch1ll_Thr1lls_and_CPU_Sp1lls`
-    * **Status:** Complete
 
 * Phase 2 - 09 Badge Hardware Hacking - Hall Effect (Magnet Sensor)
     * **Overall:** Player needs to interact with the badge's accelerometer by tapping a specific rhythm or sequence to unlock a feature or reveal a flag. The in-game portion guides the player to the physical badge and provides all the context needed to solve the hardware challenge.
@@ -902,7 +880,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{th3_magnet_1d3ntity}`
     * **CTF Points (Medium):** 65
     * **CTFd_Challenge_Name:** `H4ll_M0n1t0r`
-    * **Status:** Complete
 
   * Phase 2 - 10 Maine Isn't Real
     * **Overall:** Player interacts with Zapp at Circus Circus, who discusses Maine as a conspiracy. Zapp sends the player west into a maze.
@@ -923,7 +900,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{Matt_greater_than_systemd}`
     * **CTF Points (Medium):** 52
     * **CTFd_Challenge_Name:** `M41n3_1sn7_R34l`
-    * **Status:** Complete
   
   * Phase 2 - 11 Badge Hardware Hacking - Backspace Character Secret Flag Printed from Hidden UART
     * **Overall:** A flag is printed when the player connects over serial to the hidden UART, but the flag is immediately followed by many backspace characters, which obfuscate the flag and prevent it from being visible in the terminal.
@@ -954,7 +930,6 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Flag:** `flag{n3gaT1ve_SPAC3}`
     * **CTF Points (Medium):** 57
     * **CTFd_Challenge_Name:** `k3Yb04rD_W4RR10r`
-    * **Status:** Complete
 
 **Phase 2 - 12 False Flag Operations**  
 * **Description:** These are devious traps disguised as challenges. Each flag awards negative points in CTFd, with a total penalty of -750 points for solving all five. However, for those daring enough to take the risk, a sixth challenge unlocks upon completing the first five. This final challenge offers a positive flag worth 1000 points, netting a 250-point gain if successful-or leaving players in a deeper hole if they fail. The player does not know how many there are, so they have to complete it all or they are SOL. 
@@ -967,12 +942,9 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
   * **Flag 5 - F0XTROT:** Given to them as a reward in CTFd: `flag{WH15KY_T@NG0_TH4T_W4S_R1SKY_AF_C0NGR4TS}`
   * **CTFd_Challenge_Name:** `F4L53_FL4G_0P3R4710N`  
   * **CTF Points:** -150 for each of the first five flags (-750 total), then +1000 for the final flag, to net 250 points if all are solved.  
-  * **Status:** Complete
 
 **Phase 2 - 13 Hug 5n4ck3y**  
 * **Description:** Just a small fun challenge to hug 5n4ck3y. You finally make it to the snack machine at the end, interact, you notice the memorable screen of No Physical Attacks, No Assholes, Have Fun, Hugs Welcome. If you attack 5n4ck3y, you die game over. If you hug 5n4ck3y, you get a flag. Many people ran up and hugged 5n4ck3y which made us happy.
   * **CTFd_Challenge_Name:** `F1N4L_3XPL01T_0F_K1NDN3SS`
   * **Flag:** `flag{k!ndn355win5}`
   * **CTF Points:** 21
-  * **Status:** Complete
-    
