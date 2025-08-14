@@ -872,7 +872,7 @@ Put your challenge title here, walkthrough for solving, location in BENDER, and 
     * **Overall:** Player needs to interact with the badge's accelerometer by tapping a specific rhythm or sequence to unlock a feature or reveal a flag. The in-game portion guides the player to the physical badge and provides all the context needed to solve the hardware challenge.
     * **Phase 1: The Magnetic Mystery (In-Game BENDER - Exploration, Item Use, NPC Interaction)**
         *   **Locations:**
-*   `LVCCFoodCourt` (new scenery: "Janitor's Mop Bucket" containing "Gold Matt Damon Keychain")
+            *   `LVCCFoodCourt` (new scenery: "Janitor's Mop Bucket" containing "Gold Matt Damon Keychain")
             *   `DC33ContestArea` (new scenery: "Prize Capsule Machine" containing "Horseshoe Magnet")
             *   `LVCCMainHall` (new NPC: "Professor Flux")
         *   **Description:**
